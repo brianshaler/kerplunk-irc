@@ -1,6 +1,6 @@
 # kerplunk-irc
 
-[Kerplunk](https://github.com/brianshaler/kerplunk) plugin. 
+[Kerplunk](https://github.com/brianshaler/kerplunk) plugin. Connect to IRC channels, join rooms, chat in a basic web interface, and allow plugins to send/receive IRC messages
 
 [![Build Status](https://travis-ci.org/brianshaler/kerplunk-irc.svg)](https://travis-ci.org/brianshaler/kerplunk-irc)
 [![npm version](https://img.shields.io/npm/v/kerplunk-irc.svg)](https://www.npmjs.com/package/kerplunk-irc)
