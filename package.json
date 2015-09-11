@@ -2,7 +2,7 @@
   "name": "kerplunk-irc",
   "displayName": "IRC Client",
   "description": "Connect to IRC channels, join rooms, chat in a basic web interface, and allow plugins to send/receive IRC messages",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "kerplunk": {
     "recommended": [
       "kerplunk-irc-where"
