@@ -21,7 +21,9 @@ module.exports = (System) ->
       return next null, server
 
   getServers = (next) ->
-    IRCServer.find {}, (err, servers) ->
+    IRCServer
+    .where {}
+    .find (err, servers) ->
       return next err if err
       if servers?.length > 0
         for server in servers
