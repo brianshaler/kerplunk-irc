@@ -244,8 +244,11 @@ module.exports = (System) ->
         irc:
           messageListComponent: 'kerplunk-irc:ircMessages'
           messageComponent: 'kerplunk-irc:ircMessage'
-        styles:
-          'kerplunk-irc/css/irc.css': ['/admin/irc/**', '/admin/irc']
+        css:
+          'kerplunk-irc:show': 'kerplunk-irc/css/irc.css'
+          'kerplunk-irc:notification': 'kerplunk-irc/css/irc.css'
+          'kerplunk-irc:setup': 'kerplunk-irc/css/irc.css'
+          'kerplunk-irc:setupServer': 'kerplunk-irc/css/irc.css'
     events:
       irc:
         message:
